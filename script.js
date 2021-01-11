@@ -36,11 +36,13 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
 
         if (isMobile()){
             var foto_perfil = document.getElementById("modalFotoPerfil");
-            foto_perfil.style.marginTop="0";
+            foto_perfil.style.marginTop="0px";
             foto_perfil.style.maxWidth="100%";
         }
         else{
-        
+            var foto_perfil = document.getElementById("modalFotoPerfil");
+            foto_perfil.style.marginTop="-65px";
+            foto_perfil.style.maxWidth="40%";
         }
         
 
