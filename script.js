@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
 
         if (isMobile()){
             modalFotoPerfil = document.getElementById("modalFotoPerfil");
-            modalFotoPerfil.style.width="100%";
+            modalFotoPerfil.disabled= true;
             
         }
         else{            
