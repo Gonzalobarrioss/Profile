@@ -38,8 +38,8 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
             modalFotoPerfil = document.getElementById("estiloFotoCelularPc");
             modalFotoPerfil.style.maxWidth ="90%";
             modalFotoPerfil.marginTop="5%";
-            modalFotoPerfil.style.left="2%";
-            alert("hola");
+            modalFotoPerfil.style.left="2.5%";
+            
         }
         else{            
         }
