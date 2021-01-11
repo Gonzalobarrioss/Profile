@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
         if (isMobile){
             document.getElementById("modalFotoPerfil").style.left="90%";
             document.getElementById("modalFotoPerfil").style.maxWidth="100%";
-            document.getElementById("modalFotoPerfil").style.marginTop="0px";
+            document.getElementById("modalFotoPerfil").style.marginTop="50%";
             alert("GOLA");
         }
         
