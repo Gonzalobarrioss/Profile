@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
     }       
 
         if (isMobile()){
-            modalFotoPerfil = document.getElementById("modalFotoPerfil");
+            modalFotoPerfil = document.getElementById("estiloFotoCelularPc");
             modalFotoPerfil.style.maxWidth ="100%";
             modalFotoPerfil.marginTop="0px";
             modalFotoPerfil.style.left="10%";
