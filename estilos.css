@@ -1,0 +1,44 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+a:link{
+    text-decoration: none
+}
+
+.zoom{
+    color: white;
+}
+
+.zoom:focus {
+    color:black;
+}
+
+.zoom:hover {
+    transform:perspective(500px) translate3d(0,0,100px);
+}
+
+.perfil {
+    width: 50%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 25%;
+    border-radius: 20%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.perfil:hover {
+    cursor: pointer;
+    margin-top: 8%;
+    /*transform:perspective(500px) translate3d(0,0,100px);*/
+}
+
+
+
+
+
+
