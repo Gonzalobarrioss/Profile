@@ -34,11 +34,13 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
             );
         }
 
+        alert(isMobile());
         if (isMobile){
+            alert("CEL");
             document.getElementById("modalFotoPerfil").style.left="10%";
             document.getElementById("modalFotoPerfil").style.maxWidth="100%";
             document.getElementById("modalFotoPerfil").style.marginTop="50%";
-            alert("CEL");
+            
         }
         else{
             alert("PC");
