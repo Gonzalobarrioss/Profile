@@ -35,10 +35,12 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
     }       
 
         if (isMobile()){
-        alert("cel");
+            var foto_perfil = document.getElementById("modalFotoPerfil");
+            foto_perfil.style.marginTop="0";
+            foto_perfil.style.maxWidth="100%";
         }
         else{
-        alert("pc");
+        
         }
         
 
