@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
 
         if (isMobile()){
             modalFotoPerfil = document.getElementById("estiloFotoCelularPc");
-            modalFotoPerfil.style.maxWidth ="100%";
-            modalFotoPerfil.marginTop="0px";
-            modalFotoPerfil.style.left="10%";
-            alert("hola");
+            modalFotoPerfil.style.maxWidth ="90%";
+            modalFotoPerfil.marginTop="5%";
+            modalFotoPerfil.style.left="5%";
+            alert("holas");
         }
         else{            
         }
