@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
         else{
             alert("PC");
         }
+        alert("aasd");
         
 
 
