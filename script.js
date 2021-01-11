@@ -36,9 +36,10 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
 
         if (isMobile()){
             modalFotoPerfil = document.getElementById("modalFotoPerfil");
-            modalFotoPerfil.disabled= true;
-            alert("asd");
-            
+            modalFotoPerfil.style.maxWidth ="100%";
+            modalFotoPerfil.marginTop="0px";
+            modalFotoPerfil.style.left="10%";
+            alert("hola");
         }
         else{            
         }
