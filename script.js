@@ -38,8 +38,8 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
             modalFotoPerfil = document.getElementById("estiloFotoCelularPc");
             modalFotoPerfil.style.maxWidth ="90%";
             modalFotoPerfil.marginTop="5%";
-            modalFotoPerfil.style.left="5%";
-            alert("holas");
+            modalFotoPerfil.style.left="2%";
+            alert("hola");
         }
         else{            
         }
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
 
 
         cargarTeclas();
-
+/*
         let sonido_bienvenida = document.createElement("audio");
         sonido_bienvenida.volume = 0.9;
         sonido_bienvenida.src = "./sounds/bienvenida.mp3";
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
             }
 
 
-        }
+        }*/
 
        
 
