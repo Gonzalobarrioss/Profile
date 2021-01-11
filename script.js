@@ -39,7 +39,10 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
             document.getElementById("modalFotoPerfil").style.left="90%";
             document.getElementById("modalFotoPerfil").style.maxWidth="100%";
             document.getElementById("modalFotoPerfil").style.marginTop="50%";
-            alert("GOLA");
+            alert("CEL");
+        }
+        else{
+            alert("PC");
         }
         
 
