@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
 
 
 
+
     let Teclas = new Array(255);
 
     let tecla = {
@@ -21,11 +22,27 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
 
     function cargar_audio_js(){
 
-
-
         "use_strict";
 
+        function isMobile(){
+            return (
+                (navigator.userAgent.match(/Android/i)) ||
+                (navigator.userAgent.match(/webOS/i)) ||
+                (navigator.userAgent.match(/iPhone/i)) ||
+                (navigator.userAgent.match(/iPod/i)) ||
+                (navigator.userAgent.match(/iPad/i)) ||
+                (navigator.userAgent.match(/BlackBerry/i))
+            );
+        }
+
+        if (isMobile){
+            document.getElementById("modalFotoPerfil").style.maxWidth="100%";
+            document.getElementById("modalFotoPerfil").style.marginTop="0px";
+            alert("GOLA");
+        }
         
+
+
         cargarTeclas();
 
         let sonido_bienvenida = document.createElement("audio");
