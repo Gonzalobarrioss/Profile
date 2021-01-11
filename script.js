@@ -32,18 +32,13 @@ document.addEventListener('DOMContentLoaded', cargar_audio_js);
                 (navigator.userAgent.match(/iPad/i)) ||
                 (navigator.userAgent.match(/BlackBerry/i))
             );
-        }
+    }       
 
-        alert(isMobile());
-        if (isMobile){
-            alert("CEL");
-            document.getElementById("modalFotoPerfil").style.left="10%";
-            document.getElementById("modalFotoPerfil").style.maxWidth="100%";
-            document.getElementById("modalFotoPerfil").style.marginTop="50%";
-            
+        if (isMobile()){
+        alert("cel");
         }
         else{
-            alert("PC");
+        alert("pc");
         }
         
 
