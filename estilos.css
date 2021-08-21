@@ -47,7 +47,11 @@ a:link{
 
     #modalFotoPerfil{
 
-        left:30%;max-width:50%;
+        left:30%;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        max-width:50%;
     }
 
 }
