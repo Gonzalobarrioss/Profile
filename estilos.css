@@ -47,7 +47,10 @@ a:link{
 
     #modalFotoPerfil{
 
-        left:30%;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        
         width: 500px;
         height: 500px;
         border-radius: 50%;
@@ -60,6 +63,12 @@ a:link{
 
     #modalFotoPerfil{
 
+        flex: 1;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
         display: none;
     }
 
