@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
-<title>CV Gonzalo Barrios</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <title>CV Gonzalo Barrios</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="w3-light-grey">
-
+</head>
+<body class="w3-text-white">
+  <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  </style>
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
@@ -19,79 +22,100 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <div class="w3-row-padding">
   
     <!-- Left Column -->
+
     <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
+
+      <div class="w3-text-white w3-card-4" style="background-color: #262626">
+
+
+        <img src="img/Foto_perfil.jpeg" class="perfil" alt="Gonzalo Barrios" onclick="document.getElementById('modalFotoPerfil').style.display='block'" class="w3-hover-opacity">
+
+        
         <div class="w3-display-container">
-          <img src="img/Foto_perfil.jpeg" style="width:100%" alt="Gonzalo Barrios">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2 id="name_cv">Gonzalo Barrios</h2>
+          <div id="modalFotoPerfil" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+            <img class="w3-modal-content" style="left:30%;max-width:50%;" src="img/Foto_perfil.jpeg" alt="Gonzalo Barrios">
+          </div>
+
+          <div class="w3-animate-zoom zoom" style="text-align:center">
+            <h3><a id="cursor" href="#">Gonzalo Barrios</a></h3>
           </div>
         </div>
+
+
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Back End - Front End Web Developer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Posadas - Misiones, Argentina</p>
-          <p><i class="fa fa-male fa-fw w3-margin-right w3-large w3-text-teal"></i>23 Años</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>gonza.barrios.geb@gmail.com</p>
-          <p><i class="fa fa-mobile fa-fw w3-margin-right w3-large w3-text-teal"></i>3765-038955</p>
-          <!-- <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i></p> -->
+          <p class="w3-large w3-animate-zoom"><i class="fa fa-cog fa-spin fa-fw w3-margin-right w3-text-blue"></i><b><a id="cursor" href="#">Information</a></b></p>
+          <p class="w3-animate-zoom"><i class="fa fa-desktop fa-fw w3-margin-right w3-large w3-text-blue"></i>Full Stack Web Developer</p>
+          <p class="w3-animate-zoom"><i class="fa fa-globe fa-fw w3-margin-right w3-large w3-text-blue"></i>Posadas, Misiones - Argentina</p>
+          <p class="w3-animate-zoom"><i class="fa fa-male fa-fw w3-margin-right w3-large w3-text-blue"></i>24 Years</p>
+          <a href="https://www.linkedin.com/in/gonzaloezequielbarrios/" target="_blank"><p  class="w3-animate-zoom"><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-blue"></i>Watch my LinkedIn</p></a>
+          <a href="mailto:gonza.barrios.geb@gmail.com" target="_blank"><p  class="w3-animate-zoom"><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>Send me an email</p></a>
+          <a href="https://wa.me/+5493765038955" target="_blank"><p class="w3-animate-zoom"><i class="fa fa-whatsapp fa-fw w3-margin-right w3-large w3-text-blue"></i>WhatsApp me</p></a>
+          <a href="https://t.me/GonzaloBarrios" target="_blank"><p class="w3-animate-zoom"><i class="fa fa-telegram fa-fw w3-margin-right w3-large w3-text-blue"></i>Send me an Telegram</p></a>
+          <!-- <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i></p> -->
           <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Programming Languages</b></p>
-          <p>Python</p>
+          <p class="w3-large w3-animate-zoom"><i class="fa fa-cog fa-spin fa-fw w3-margin-right w3-text-blue"></i><b><a id="3" href="#">Programming Languages</a></b></p>
+          
+          <!--
+          <p class="w3-animate-zoom">Python</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:60%">60%</div>
+          </div> -->
+          
+          <p class="w3-animate-zoom">PHP</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:90%">90%</div>
           </div>
-          <p>C++</p>
+          <p class="w3-animate-zoom">SQL - MySQL</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:85%">85%</div>
           </div>
-          <p>Cobol</p>
+          <p class="w3-animate-zoom">Javascript</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-          </div>
-          <p>Visual Basic</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>PHP</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>SQL - MySQL</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
-          </div>
-          <p>Javascript</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">80%</div>
           </div>    
-          <p>HTML</p>
+          <p class="w3-animate-zoom">HTML</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:90%">90%</div>
           </div>
-          <p>CSS</p>
+          <p class="w3-animate-zoom">CSS</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:85%">85%</div>
           </div>
-          <p>Java</p>
+
+          <p class="w3-animate-zoom">C++ - <span style="font-style: oblique;text-decoration: underline;font-size: smaller;"> Academic</span> </p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:90%">90%</div>
           </div>
+          <p class="w3-animate-zoom">Cobol - <span style="font-style: oblique;text-decoration: underline;font-size: smaller;"> Academic</span> </p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">80%</div>
+          </div>
+          <p class="w3-animate-zoom">Visual Basic - <span style="font-style: oblique;text-decoration: underline;font-size: smaller;"> Academic</span> </p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:90%">90%</div>
+          </div>
+
+          <!--
+
+          <p class="w3-animate-zoom">Java</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:40%">40%</div>
+          </div> -->
           <br>
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
+          <p class="w3-large w3-animate-zoom"><b><i class="fa fa-globe fa-spin fa-fw w3-margin-right w3-text-blue"></i><a id="4" href="#">Tecnic Languages</a></b></p>
+          <p class="w3-animate-zoom">English</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:65%"></div>
+            <div class="w3-round-xlarge w3-blue" style="height:24px;width:65%"></div>
           </div>
-          <p>Spanish</p>
+          <p class="w3-animate-zoom">Spanish</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:95%"></div>
+            <div class="w3-round-xlarge w3-blue" style="height:24px;width:95%"></div>
           </div>
           <!-- <p></p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+            <div class="w3-round-xlarge w3-blue" style="height:24px;width:25%"></div>
           </div> -->
           <br>
         </div>
@@ -101,77 +125,89 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     </div>
 
     <!-- Right Column -->
+    
     <div class="w3-twothird">
     
-        <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container w3-card w3-light-grey w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i><a id="5" href="#">Work Experience</a></h2>
             <div class="w3-container">
-                <!--<h5 class="w3-opacity"><b>Video Game Design - Collaboration</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-                 <p>Desarrollo de un prototipo funcional de RPG Fantastico Medieval en 2d.</p> 
-                <p>A Fantasy Medieval RPG 2d prototype developed using native Javascript.</p>
+
+              
+
+                <h5 class="w3-opacity"><b>Technical Support and Web Developer in Gaston Dachary University </b></h5>
+                <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2021 - Current<span class="w3-tag w3-blue w3-round"></span></h6>
+               
+                <h6 class="w3-text-blue">
+                  <i class="fa fa-globe fa-fw w3-margin-right"></i>
+                   <a href="https://www.google.com/maps/place/Universidad+Gast%C3%B3n+Dachary+%2F%2F+Sede+Central/@-27.3714132,-55.8977436,17z/data=!3m1!4b1!4m5!3m4!1s0x9457be4a0aa5fc7d:0xcd599c063e5f51a4!8m2!3d-27.3714132!4d-55.8955549" target="_blank"><span class="w3-tag w3-blue w3-round">Ubication</span></a>
+                </h6>                        
+
+
+                <hr>
+                
+            </div>
+          
+        </div>
+
+
+        <div class="w3-container w3-card w3-light-grey w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i><a id="5" href="#">Academic Experience</a></h2>
+          <div class="w3-container">
+
             
-                <p>
-                    <a href="https://ochoaunicen.github.io/rpg">
-                        ochoaunicen.github.io/rpg
-                    </a>
-                </p>
-                <hr>-->
-                <h5 class="w3-opacity"><b>Robotics Project </b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019  <span class="w3-tag w3-teal w3-round"></span></h6>
-                <!-- <p>Desarrollo de un prototipo funcional de RPG Fantastico Medieval en 2d.</p> -->
-                <p>
-                  Project of led lights and servomotor through Bluetooth and Wi-Fi module, using MySQL, PHP and Arduino made with the "Escuela de Robótica" 
-                  in Posadas Misiones.
-                </p>
-                <hr>
-                <h5 class="w3-opacity"><b>Final Work 2nd year Systems Analyst </b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019  <span class="w3-tag w3-teal w3-round"></span></h6>
-                <!-- <p>Desarrollo de un prototipo funcional de RPG Fantastico Medieval en 2d.</p> -->
-                <p>
-                  Buying and selling system, online billing, 
-                  stock control for the final work of the 2nd year of the career Systems Analyst
-                   using MySQL,Javascript, PHP, HTML and CSS.
-                </p>
-                <!--<p>
-                    <a href="https://ochoaunicen.github.io/rpg">
-                        ochoaunicen.github.io/rpg
-                    </a>
-                </p>-->
-            </div> <!-- 
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Landing Page - DJ Juan Escarcena</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2019</h6>
+
+              <h5 class="w3-opacity"><b>Robotics Project </b></h5>
+              <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019  <span class="w3-tag w3-blue w3-round"></span></h6>
+             
               <p>
-                <a href="https://ochoaunicen.github.io/jd">
-                  ochoaunicen.github.io/jd
-                </a>
+                Project of led lights and servomotor through Bluetooth and Wi-Fi module, using MySQL, PHP and Arduino made with the "Escuela de Robótica" 
+                in Posadas Misiones.
               </p>
+
+              <span class="w3-tag w3-blue w3-round">
+                <a href="http://gonzalobarrioss.github.io/Robotica" target="_blank">See project</a>
+
+              </span>
+
               <hr>
-            </div> -->
-            <!-- <div class="w3-container">
-              <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-            </div> -->
+
+
+
+              <h5 class="w3-opacity"><b>Final Work 2nd year Systems Analyst </b></h5>
+              <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019  <span class="w3-tag w3-blue w3-round"></span></h6>
+              <p>
+                Buying and selling system, online billing, 
+                stock control for the final work of the 2nd year of the career Systems Analyst
+                 using MySQL,Javascript, PHP, HTML and CSS.
+              </p>
+
+              <span class="w3-tag w3-blue w3-round">
+                <a href="https://gonzalobarrioss.github.io/PizzaConmigo/" target="_blank">See project</a>
+
+              </span>
+
+              <hr>
+ 
+          </div>
+        
         </div>
 
-        <div class="w3-container w3-card w3-white">
-            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+
+        <div class="w3-container w3-card w3-light-grey">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i><a id="6" href="#">Education</a></h2>
             <div class="w3-container">
-                <h5 class="w3-opacity"><b>Normal 10 - Analista en Sistemas</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2018 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+                <h5 class="w3-opacity"><b>Normal 10 - System Analist</b></h5>
+                <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2018 - <span class="w3-tag w3-blue w3-round">Current</span></h6>
                 <p>Posadas, Misiones, Argentina</p>
                 <hr>
             </div>
             <div class="w3-container">
-                <h5 class="w3-opacity"><b>Title: Analista Programador</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019 - <span class="w3-tag w3-teal w3-round">Owned</span></h6>
+                <h5 class="w3-opacity"><b>Title: Programmer Analyst</b></h5>
+                <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2019 - <span class="w3-tag w3-blue w3-round">Owned</span></h6>
                 <p>Posadas, Misiones, Argentina</p>
                 <hr>
             </div>
         </div>
-
     <!-- End Right Column -->
     </div>
     
@@ -181,8 +217,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>©2020 Gonzalo Barrios</p>
+<footer class="w3-container w3-blue w3-center w3-margin-top">
+  <p>©2021 Gonzalo Barrios</p>
   <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
   <i class="fa fa-instagram w3-hover-opacity"></i>
   <i class="fa fa-snapchat w3-hover-opacity"></i>
@@ -191,6 +227,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <i class="fa fa-linkedin w3-hover-opacity"></i>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
 </footer>
+
+<!--<script src="script.js"></script>-->
 
 </body>
 </html>
