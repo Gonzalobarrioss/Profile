@@ -51,7 +51,10 @@ a:link{
 
 @media (min-width: 576px) { 
 
-    
+    #academicExperience {
+
+        align-items: center;
+    }    
 
 }
 
