@@ -43,6 +43,13 @@ a:link{
 }
 
 
+@media (min-width: 992px) { 
 
+    #modalFotoPerfil{
+
+        left:30%;max-width:50%;
+    }
+
+ }
 
 
